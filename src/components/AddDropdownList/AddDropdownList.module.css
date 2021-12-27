@@ -1,0 +1,32 @@
+.formContainer {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.input {
+    margin: 40px 0px 40px 0px;
+}
+
+.dropdown {
+    margin: 0px 0px 0px 0px;
+    width: 28ch;
+}
+
+.addContainer{
+    background-color: blue;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.submitRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}

@@ -1,0 +1,21 @@
+.currencyContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 60px 0px 0px 0px;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0px 20pxpx 0px 20px;
+}
+
+.header {
+    margin: px 40px 0px 0px;
+}
+
+.portfolioContainer {
+    margin: 0px 0px 0px 0px;
+}

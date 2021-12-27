@@ -1,0 +1,17 @@
+.squareOne {
+    width: 200px;
+    height: 200px;
+    background-color: lightslategray;
+    margin: 40px;
+}
+.menuGridContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+    justify-content: space-evenly;
+}
+.textContainer{
+    padding-top: 40px;
+}

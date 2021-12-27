@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { portfoliosReducer } from '../ducks/portfoliosReducer';
+import { createPortfolioReducer } from '../ducks/createPortfolioReducer';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    viewPortfolios: portfoliosReducer,
+    createPortfolio: createPortfolioReducer,
   },
 });

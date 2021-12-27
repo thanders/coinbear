@@ -1,0 +1,16 @@
+.snackBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20em;
+    background-color: #323232;
+    padding: 20px;
+    color: white;
+}
+.snackAction{
+    margin-left: 60px;
+}
+.spaceBlock{
+    width: 20px;
+}

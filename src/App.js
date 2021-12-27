@@ -1,57 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
+import { Routes, Route } from "react-router-dom";
+import CreatePortfolio from './containers/CreatePortfolio/CreatePortfolio';
+import ViewPortfolios from './containers/ViewPortfolios/ViewPortfolios';
+import Home from './containers/Home/Home';
+import ViewPortfolio from './containers/viewPortfolio/viewPortfolio';
+import AppContainer from './components/AppContainer/AppContainer';
+import ExportData from './containers/ExportData/ExportData';
 import './App.css';
+import ImportData from './containers/ImportData/ImportData';
+import Dashboard from './containers/Dashboard/Dashboard';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
+      <AppContainer>
+        <Routes>
+          <Route path="coinbear/" element={<Home />} />
+          <Route path="coinbear/create" element={<CreatePortfolio />} />
+          <Route path="coinbear/myportfolios" element={<ViewPortfolios />} />
+          <Route path="coinbear/myportfolios" element={<ViewPortfolio />} >
+            <Route path=":slug" />
+          </Route>
+          <Route path="coinbear/exportData" element={<ExportData />} />
+          <Route path="coinbear/importData" element={<ImportData />} />
+          <Route path="coinbear/dashboard" element={<Dashboard />} />
+        </Routes>
+      </AppContainer>
   );
 }
 

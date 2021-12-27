@@ -1,0 +1,28 @@
+.breadcrumbContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    justify-content: left;
+    color: white;
+}
+
+.customLinkContainer {
+    margin: 0px 20px 0px 0px;
+    color: white;
+}
+.separator {
+    margin: 0px 20px 0px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.linkStyles{
+    color: white;
+}

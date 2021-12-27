@@ -1,0 +1,11 @@
+
+.horizontalContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.buttonStyles {
+  margin-right: 50px;
+}
