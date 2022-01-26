@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coinbear/static/css/main.5667c248.chunk.css",
-    "main.js": "/coinbear/static/js/main.f5562754.chunk.js",
-    "main.js.map": "/coinbear/static/js/main.f5562754.chunk.js.map",
+    "main.js": "/coinbear/static/js/main.3a1936e0.chunk.js",
+    "main.js.map": "/coinbear/static/js/main.3a1936e0.chunk.js.map",
     "runtime-main.js": "/coinbear/static/js/runtime-main.6b11f294.js",
     "runtime-main.js.map": "/coinbear/static/js/runtime-main.6b11f294.js.map",
     "static/js/2.f2b1e03d.chunk.js": "/coinbear/static/js/2.f2b1e03d.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.6b11f294.js",
     "static/js/2.f2b1e03d.chunk.js",
     "static/css/main.5667c248.chunk.css",
-    "static/js/main.f5562754.chunk.js"
+    "static/js/main.3a1936e0.chunk.js"
   ]
 }
