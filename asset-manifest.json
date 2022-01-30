@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/coinbear/static/css/main.1a8d54d5.chunk.css",
-    "main.js": "/coinbear/static/js/main.dc9d96a5.chunk.js",
-    "main.js.map": "/coinbear/static/js/main.dc9d96a5.chunk.js.map",
+    "main.css": "/coinbear/static/css/main.05c8f0de.chunk.css",
+    "main.js": "/coinbear/static/js/main.7fba60cb.chunk.js",
+    "main.js.map": "/coinbear/static/js/main.7fba60cb.chunk.js.map",
     "runtime-main.js": "/coinbear/static/js/runtime-main.6b11f294.js",
     "runtime-main.js.map": "/coinbear/static/js/runtime-main.6b11f294.js.map",
-    "static/js/2.521c0e35.chunk.js": "/coinbear/static/js/2.521c0e35.chunk.js",
-    "static/js/2.521c0e35.chunk.js.map": "/coinbear/static/js/2.521c0e35.chunk.js.map",
+    "static/js/2.24e19ba3.chunk.js": "/coinbear/static/js/2.24e19ba3.chunk.js",
+    "static/js/2.24e19ba3.chunk.js.map": "/coinbear/static/js/2.24e19ba3.chunk.js.map",
     "index.html": "/coinbear/index.html",
-    "static/css/main.1a8d54d5.chunk.css.map": "/coinbear/static/css/main.1a8d54d5.chunk.css.map",
-    "static/js/2.521c0e35.chunk.js.LICENSE.txt": "/coinbear/static/js/2.521c0e35.chunk.js.LICENSE.txt"
+    "static/css/main.05c8f0de.chunk.css.map": "/coinbear/static/css/main.05c8f0de.chunk.css.map",
+    "static/js/2.24e19ba3.chunk.js.LICENSE.txt": "/coinbear/static/js/2.24e19ba3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6b11f294.js",
-    "static/js/2.521c0e35.chunk.js",
-    "static/css/main.1a8d54d5.chunk.css",
-    "static/js/main.dc9d96a5.chunk.js"
+    "static/js/2.24e19ba3.chunk.js",
+    "static/css/main.05c8f0de.chunk.css",
+    "static/js/main.7fba60cb.chunk.js"
   ]
 }
